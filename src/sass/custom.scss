@@ -1,0 +1,16 @@
+$theme-colors: (
+  "primary": #ba849b,
+  "secondary": #6e3f53,
+  "danger": #ff4136,
+  "dark": #323138,
+  "light": #EFEAE4,
+);
+
+.carousel-control-prev-icon {
+    background-image: url("../img/decoration/flecheg.svg") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("../img/decoration/fleched.svg") !important;
+}
+
+@import "../libs/bootstrap/scss/bootstrap";

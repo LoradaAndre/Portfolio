@@ -1,0 +1,113 @@
+/* ######################### ACCUEIL ######################### */
+
+/* Nom accueil */
+.centeredName {
+  font-size: 5vw;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Nom domaine visé */
+.centeredJob {
+  font-size: 3vw;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* ######################### BARRE DE NAVIGATION ######################### */
+
+/* Mise en valeur de la section sur la navBar */
+nav .active{
+	color: white;
+}
+
+/* ######################### PRESENTATION  ######################### */
+
+/* background Présentation */
+.bgPres{
+	background-image: url("../img/background/fondPresentation.png");
+	width: 100%;
+}
+/* Sur la carte de présentation */
+.bgGrey{
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* ######################### PARCOURS  ######################### */
+
+/* ######################### COMPETENCES  ######################### */
+
+/* Sur les Competences */
+.bgNoir{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/* ######################### PROJETS  ######################### */
+.ancrer_contenu {
+  overflow-wrap: break-word
+}
+
+/* ######################### FOOTER  ######################### */
+/* background footer */
+.bg-white{
+	background-color: #ffffff;
+}
+
+/* ######################### COMMUN  ######################### */
+/* police en blanc */
+.white{
+	color: white;
+}
+
+/* paramètres paralax */
+.parallax-window{
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.25);
+}
+
+/* Centrage des titres de section */
+h1{
+	text-align: center;
+}
+
+/* -- Modification personnelles des mini-icones -- */
+.fas.content{
+	width: 20px;
+	height: auto;
+}
+.fa-code-branch{
+	margin-right: 3px;
+	margin-left: 2px;
+}
+.icon-smaller{
+	font-size: smaller;
+}
+.devicon-inkscape-plain{
+	margin-right: 1px;
+}
+
+/* -- Positionnement des lignes avant et après les titres de section -- */
+#Presentation h1::before, #Competence h1::before{
+	content: url(../img/decoration/white.png);
+    vertical-align: middle;
+	width: 100%;
+}
+#Presentation h1::after, #Competence h1::after{
+	content: url(../img/decoration/white.png);
+    vertical-align: middle;
+	width: 100%;
+}
+#Parcours h1::before, #Projets h1::before{
+	content: url(../img/decoration/colored.png);
+    vertical-align: middle;
+	width: 100%;
+}
+#Parcours h1::after, #Projets h1::after{
+	content: url(../img/decoration/colored.png);
+    vertical-align: middle;
+	width: 100%;
+}
