@@ -30,7 +30,6 @@ function gestionNavBar(){
 	$(window).scroll(function() {
 		if($(window).scrollTop() >= (positionPresentation.top - hauteurNavBar) || (window.innerWidth < 573)) {
 			$('nav').addClass('fixed-top');
-			$('nav').css('width', "100%");
 			if(window.innerWidth > 573){
 				$('main').css('padding-top', ""+hauteurNavBar+'px');
 			}

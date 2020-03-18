@@ -23,7 +23,7 @@
 		</header>
 
 		<!-- ================================================== BARRE DE NAVIGATION ==================================================-->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pr-0 mr-0" width="100%">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pr-0 mr-0">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-target">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -49,7 +49,7 @@
 						<div class="row col-lg-12 justify-content-center cartPres ">
 							<div class="col-lg-2 col-md-5 bgGrey contCartPres">
 								<div class="text-center" >
-									<img class="image" src="img/profil/index.png" class="col-sm-10" width="90%">
+									<img class="image col-sm-10" src="img/profil/index.png" alt="image de profil">
 								</div>
 								<div class="m-2">
 									<ul class="list-unstyled white">
@@ -65,7 +65,7 @@
 									</ul>
 								</div>
 								<div class=" m-3  justify-content-end">
-									<a type="button" href="files/CV.pdf" class="btn btn-primary btn-lg btn-block">Télécharger CV</a>
+									<a href="files/CV.pdf" class="btn btn-primary btn-lg btn-block">Télécharger CV</a>
 								</div>
 							</div>
 							<div class="col-lg-9 white">
@@ -97,69 +97,66 @@
 			<section id="Parcours" class="bg-light">
 				<h1 class="p-2">Parcours</h1>
 				<div class="row col-lg-12 justify-content-center mb-2 mt-3 dates">
-						<div class="col-md-3 col-lg-1 m-2">
-							<button data-slide-to="0" class="date btn btn-outline-primary p-3 m-5 ">2014-2017</button>
-						</div>
-						<div class="col-md-3 col-lg-1 m-2">
-							<button data-slide-to="1" class="date btn btn-outline-primary p-3 m-5 ">2018-2019</button>
-						</div>
-						<div class="col-md-3 col-lg-1 m-2 ">
-							<button data-slide-to="2" class="date btn btn-outline-primary p-3 m-5 ">2019-2020</button>
-						</div>
+					<div class="col-md-3 col-lg-1 m-2">
+						<button data-slide-to="0" class="date btn btn-outline-primary p-3 m-5 ">2014-2017</button>
 					</div>
-					<div class="col-lg-8 col-sm-12  m-auto text-center border-top border-primary">
-					    <div id="carouselContent" class="carousel slide p-5" data-interval="false" data-ride="carousel">
-					        <div class="carousel-inner" role="listbox">
-					            <div class="carousel-item active text-center">
-									<div class="row col-lg-12 justify-content-center m-auto">
-										<div class="m-2 pays">
-											<img src="img/carte/avranches.png" alt="">
-										</div>
-										<div class="m-5">
-											<h4 class="font-weight-bold">Baccalauréat Scientifique</h4>
-											<h5>Lycée Emile Littré (Avranches, Manche)</h5>
-											<h6 class="font-weight-light">Spécialité Informatique et Sciences du numérique (ISN)</h6>
-											<h6 class="font-weight-light">Option Arts Plastiques</h6>
-										</div>
-									</div>
-
-					            </div>
-					            <div class="carousel-item text-center">
-									<div class="row col-lg-12 justify-content-center m-auto">
-										<div class="m-2 pays">
-											<img src="img/carte/caen.png" alt="">
-										</div>
-										<div class="m-5">
-											<h4 class="font-weight-bold">Licence Informatique - 1ère année</h4>
-											<h5>UFR des Sciences (Caen)</h5>
-											<h6 class="font-weight-light">Obtenu avec mention assez bien</h6>
-										</div>
-									</div>
-					            </div>
-								<div class="carousel-item text-center">
-									<div class="row col-lg-12 justify-content-center m-auto">
-										<div class="m-2 pays">
-											<img src="img/carte/caen.png" alt="">
-										</div>
-										<div class="m-5">
-											<h4 class="font-weight-bold">Licence Informatique - 2ème année</h4>
-											<h5>UFR des Sciences (Caen)</h5>
-											<h6 class="font-weight-light">En cours</h6>
-										</div>
-									</div>
-					            </div>
-					        </div>
-					        <a class="carousel-control-prev pr-5" href="#carouselContent" role="button" data-slide="prev">
-					            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					            <span class="sr-only">Previous</span>
-					        </a>
-					        <a class="carousel-control-next pl-5" href="#carouselContent" role="button" data-slide="next">
-					            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					            <span class="sr-only">Next</span>
-					        </a>
-					    </div>
+					<div class="col-md-3 col-lg-1 m-2">
+						<button data-slide-to="1" class="date btn btn-outline-primary p-3 m-5 ">2018-2019</button>
 					</div>
-
+					<div class="col-md-3 col-lg-1 m-2 ">
+						<button data-slide-to="2" class="date btn btn-outline-primary p-3 m-5 ">2019-2020</button>
+					</div>
+				</div>
+				<div class="col-lg-8 col-sm-12  m-auto text-center border-top border-primary">
+				    <div id="carouselContent" class="carousel slide p-5" data-interval="false" data-ride="carousel">
+				        <div class="carousel-inner" role="listbox">
+				            <div class="carousel-item active text-center">
+								<div class="row col-lg-12 justify-content-center m-auto">
+									<div class="m-2 pays">
+										<img src="img/carte/avranches.png" alt="">
+									</div>
+									<div class="m-5">
+										<h4 class="font-weight-bold">Baccalauréat Scientifique</h4>
+										<h5>Lycée Emile Littré (Avranches, Manche)</h5>
+										<h6 class="font-weight-light">Spécialité Informatique et Sciences du numérique (ISN)</h6>
+										<h6 class="font-weight-light">Option Arts Plastiques</h6>
+									</div>
+								</div>
+				            </div>
+				            <div class="carousel-item text-center">
+								<div class="row col-lg-12 justify-content-center m-auto">
+									<div class="m-2 pays">
+										<img src="img/carte/caen.png" alt="">
+									</div>
+									<div class="m-5">
+										<h4 class="font-weight-bold">Licence Informatique - 1ère année</h4>
+										<h5>UFR des Sciences (Caen)</h5>
+										<h6 class="font-weight-light">Obtenu avec mention assez bien</h6>
+									</div>
+								</div>
+				            </div>
+							<div class="carousel-item text-center">
+								<div class="row col-lg-12 justify-content-center m-auto">
+									<div class="m-2 pays">
+										<img src="img/carte/caen.png" alt="">
+									</div>
+									<div class="m-5">
+										<h4 class="font-weight-bold">Licence Informatique - 2ème année</h4>
+										<h5>UFR des Sciences (Caen)</h5>
+										<h6 class="font-weight-light">En cours</h6>
+									</div>
+								</div>
+				            </div>
+				        </div>
+				        <a class="carousel-control-prev pr-5" href="#carouselContent" role="button" data-slide="prev">
+				            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				            <span class="sr-only">Previous</span>
+				        </a>
+				        <a class="carousel-control-next pl-5" href="#carouselContent" role="button" data-slide="next">
+			            	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			            	<span class="sr-only">Next</span>
+				        </a>
+				    </div>
 				</div>
 			</section>
 
@@ -167,7 +164,7 @@
 			<section id="Competence" class=" m-0 mb-0">
 				<div class="parallax-window" data-parallax="scroll" data-image-src="img/background/bgCompetence.png" data-natural-width="1400" data-natural-height="900">
 					<h1 class="p-2 white">Competences</h1>
-					<div class=" compt1 row col-lg-12 justify-content-center">
+					<div class="row col-lg-12 justify-content-center">
 						<div class="compt1 col-lg-3 col-sm-10 border white bgNoir">
 							<h4 class="text-center">Langages de programmation</h4>
 							<ul class="list-unstyled m-3">
@@ -208,7 +205,7 @@
 						</div>
 					</div>
 
-					<div class="row col-lg-12 m-auto justify-content-center" >
+					<div class="row col-lg-12 justify-content-center" >
 						<div class="compt2 col-lg-3 col-sm-10 border white bgNoir">
 							<h4 class="text-center">Environnements de développement</h4>
 							<ul class="list-unstyled m-3">
