@@ -43,6 +43,9 @@
 	.Informations{
 		background-color: rgba(0, 0, 0, 0.5) !important;
 	}
+	.image{
+		padding: 5%;
+	}
  }
 
 @media (min-width: 768px){
@@ -53,6 +56,9 @@
 		margin-left: 1%;
 		margin-top: 0.2%;
 		padding: 1%;
+   }
+   .image{
+	   padding: 0.25%;
    }
 }
  @media (min-width: 1000px){
