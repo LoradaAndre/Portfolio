@@ -4,19 +4,7 @@ let hauteurNavBar = $("nav").outerHeight();
 let vitesseAnnim = 1000;
 
 $(document).ready(function() {
-	//Positionnement de la barre de navigation
-	$(window).scroll(function() {
-		if($(window).scrollTop() >= (positionPresentation.top - hauteurNavBar) || (window.innerWidth < 573)) {
-			$('nav').addClass('fixed-top');
-			$('nav').css('width', "100%");
-			if(window.innerWidth > 573){
-				$('main').css('padding-top', ""+hauteurNavBar+'px');
-			}
-		}else{
-			$('nav').removeClass('fixed-top');
-			$('main').css('padding-top', '');
-		}
-	})
+	gestionNavBar();
 
 	//Gestion du caroussel
 	$(".date").click(function() {
@@ -30,6 +18,28 @@ $(document).ready(function() {
 		$(".date[data-slide-to="+event.to+"]").addClass("btn-secondary");
 	});
 });
+
+
+$(window).resize(function(){
+	positionPresentation = $("#Presentation").offset();
+	gestionNavBar();
+});
+
+function gestionNavBar(){
+	//Positionnement de la barre de navigation
+	$(window).scroll(function() {
+		if($(window).scrollTop() >= (positionPresentation.top - hauteurNavBar) || (window.innerWidth < 573)) {
+			$('nav').addClass('fixed-top');
+			$('nav').css('width', "100%");
+			if(window.innerWidth > 573){
+				$('main').css('padding-top', ""+hauteurNavBar+'px');
+			}
+		}else{
+			$('nav').removeClass('fixed-top');
+			$('main').css('padding-top', '');
+		}
+	})
+}
 
 //"Modèle des cartes"
 Vue.component('blog-post', {
@@ -53,7 +63,7 @@ new Vue({
 				competence_tra: compTra1
 			},
 			{ 	number: 2 ,
-				link: "#" ,
+				link: "https://github.com/LoradaAndre/Livrairy" ,
 				langage: "PHP" ,
 				techno1: "jQuery" ,
 				techno2: "Bootstrap" ,
@@ -65,7 +75,7 @@ new Vue({
 				competence_tra: compTra2
 			},
 			{ 	number: 3 ,
-				link: "#" ,
+				link: "https://github.com/LoradaAndre/Memory" ,
 				langage: "JavaScript" ,
 				img: "img/illustrationProjets/memory.png",
 				title: 'Memory',
@@ -86,7 +96,7 @@ new Vue({
 				competence_tra: compTra4
 			},
 			{ 	number: 5 ,
-				link: "#" ,
+				link: "https://github.com/LoradaAndre/Taquin/" ,
 				langage: "Java" ,
 				techno1: "Swing" ,
 				img: "img/illustrationProjets/taquin.png",

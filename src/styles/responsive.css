@@ -5,15 +5,74 @@
 	 }
 	 .bgPres{
 		background-image: none !important;
+		background-color: #6e3f53;
 	 }
-	 .cartePres{
+	 .contCartPres{
 		 margin: auto !important;
 	 }
+	 .carousel-item{
+		padding: 1%;
+	}
  }
- html {
-  font-size: 1rem;
-}
+ @media (max-width: 768px){
+	 .compt1{
+	   margin: auto;
+	 }
+	 .compt2{
+	   margin: auto;
+	 }
+	 .carousel-item{
+		 padding: auto;
+	 }
+	 #carouselContent{
+		 padding: 0;
+	 }
+	 .lang{
+		 margin-bottom: 5% !important;
+	}
 
+	.contCartPres{
+		margin: auto;
+	}
+	.cartPres{
+		margin: auto;
+	}
+	.bgGrey{
+		background-color: rgba(0, 0, 0, 0.5) !important;
+	}
+	.Informations{
+		background-color: rgba(0, 0, 0, 0.5) !important;
+	}
+ }
+
+@media (min-width: 768px){
+	#carouselContent{
+		padding: 1%;
+	}
+	.contCartPres{
+		margin-left: 1%;
+		margin-top: 0.2%;
+		padding: 1%;
+   }
+}
+ @media (min-width: 1000px){
+	 .compt1{
+	   margin: 0.25%;
+	 }
+	 .compt2{
+	   margin: 0.5%;
+	 }
+ }
+@media (max-width: 1000px, min-width: 500px){
+	.card{
+		width: 10% !important;
+	}
+}
+@media (min-width: 1200px){
+	.Motivation p, .Centre_interrets p{
+   	 font-size: 1vw !important;
+    }
+}
 @include media-breakpoint-up(sm) {
   html {
     font-size: 1.2rem;
@@ -30,4 +89,12 @@
   html {
     font-size: 1.6rem;
   }
+
 }
+html {
+ font-size: 1rem;
+}
+sm: 576px,
+   md: 768px,
+   lg: 992px,
+   xl: 1200px
