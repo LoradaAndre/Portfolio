@@ -30,14 +30,14 @@ nav .active{
 
 /* background Présentation */
 .bgPres{
-	background-image: url("../img/background/fondPresentation.png");
+	/*background-image: url("../img/background/fondPresentation.png");*/
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.25) !important;
 
 }
 /* Sur la carte de présentation */
 .bgGrey{
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* ######################### PARCOURS  ######################### */
@@ -50,7 +50,7 @@ nav .active{
 }
 /* ######################### PROJETS  ######################### */
 .ancrer_contenu {
-  overflow-wrap: break-word
+  overflow-wrap: break-word;
 }
 
 /* ######################### FOOTER  ######################### */
@@ -92,6 +92,9 @@ h1{
 	margin-right: 1px;
 }
 
+a{
+	color: #a64670;
+}
 /* -- Positionnement des lignes avant et après les titres de section -- */
 #Presentation h1::before, #Competence h1::before{
 	content: url(../img/decoration/white.png);

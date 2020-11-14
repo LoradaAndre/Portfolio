@@ -8,14 +8,16 @@ let mc1 = `Création d’un site web ayant comme thème \"les animaux fantastiqu
 let mc2 =  `Application personnelle de gestion/réservation de livres, DVD et CD, démarrée en février 2020 dans le cadre de l’apprentissage du PHP,
 			de Bootstrap, de jQuery, de la structure MVC en web et la mise en place d’une base de donnée.`
 let mc3 = `Création d’un mini-jeu  \"Memory\" dans le cadre de la L1 informatique. Le mini-jeu devait être crée uniquement en JavaScript pur
-			(pas d’utilisation de librairies ou de frameworks), avec le moins d’HTML possible (apprentissage de la manipulation du DOM).`;
+			(pas d’utilisation de librairies ou de frameworks), avec le moins d’HTML possible (apprentissage du DOM).`;
 let mc4 = `Création d’un jeu de plateau \"Ricochet Robots\" dans le cadre de la L2 informatique. Le jeu devait être crée
 			en Java, avec utilisation d’une interface graphique (utilisation de JavaFX), le but étant de coder un algorithme
-			de recherche de chemin (A*)`;
+			de recherche de chemin (A*).`;
 let mc5 = `Création d’un mini-jeu \"le Taquin\" dans le cadre de la L2 informatique. Le mini-jeu devait être crée en Java,
 			avec utilisation d’une interface graphique (utilisation de Swing), et avec obligation d’utiliser la structure MVC. ` ;
 let mc6 = 	`Création d’une mini-application en ligne de commande qui, selon des contraintes émises dans un fichier,
 			générait un emploi du temps. Conçue dans le cadre de la L2 informatique, le Java étant imposé. `;
+let mc7 = 	`Création d’un mini-jeu "le Morpion" dans le cadre de la LP UX2I. Le mini-jeu devait être crée en JavaScript, avec utilisation de la programmation orientée objet.
+			Il devai être développé entièrement en JavaScript sans stockage côté serveur.`;
 
 //##########################################################################################################################################
 // ---------------------------------------------------- CONTENU MODAL ---------------------------------------------------------------------
@@ -66,7 +68,7 @@ let obj3 = `Les objectifs attendus étaient les suivants:
 			</ul>`;
 let compTra3 =  `<ul>
 					<li>Manipulation du DOM</li>
-					<li>Mise en pratique du JavaScriptdans dans mini-jeu </li>
+					<li>Mise en pratique du JavaScript dans le mini-jeu </li>
 				</ul>`;
 
 //---------------------------------------------- Projet4  ---------------------------------------------- ricochet robots OK
@@ -136,6 +138,26 @@ let compTra6 = `<p>
 						<li>Conception d'une application de bout en bout</li>
 						<li>Utilisation d'outils de travail en groupe (Git, Trello,...)</li>
 						<li>Application de la POO</li>
+					</ul>
+				</p>
+				`;
+
+//---------------------------------------------- Projet7  ---------------------------------------------- Morpion OK
+let text7 = `Dans le cadre du premer semestre de la licence pro UX2I, il nous a été demandé de concevoir un morpion en Javascript, tout en utilisant la notion de Programmation orientée objet.
+			 `;
+let obj7 = `
+			<p>Le jeu d'affrontement avec l'ordinateur doit :
+				<ul>
+					<li>Avoir un espace d'affichage propre au joueur et propre à l'ordi</li>
+					<li>Avoir un espace d'affichage du score des confrontations</li>
+					<li>Permettre de saisir un surnom et de le stocker localement afin de récupérer les résultats des précédentes parties.</li>
+				</ul>
+			<p>
+			`;
+let compTra7 = `<p>
+					<ul>
+						<li>Mise en pratique de la POO en JavaScript</li>
+						<li>Manipulation du local storage</li>
 					</ul>
 				</p>
 				`;

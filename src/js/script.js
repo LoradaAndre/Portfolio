@@ -1,4 +1,5 @@
 "use strict"
+
 let positionPresentation = $("#Presentation").offset();
 let hauteurNavBar = $("nav").outerHeight();
 let vitesseAnnim = 1000;
@@ -114,6 +115,16 @@ new Vue({
 				content: text6 ,
 				objectif: obj6 ,
 				competence_tra: compTra6
+			},
+			{ 	number: 7 ,
+				link: "https://github.com/LoradaAndre/Morpion" ,
+				langage: "JavaScript" ,
+				img: "img/illustrationProjets/morpion.png",
+				title: 'Morpion',
+				mini_content: mc7 ,
+				content: text7 ,
+				objectif: obj7 ,
+				competence_tra: compTra7
 			},
 		]
 	}
